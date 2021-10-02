@@ -41,3 +41,4 @@ print(type(random_list[2]))
 #     print(type(random_list[i]))
 
 print("First commit")
+print("Second commit")
