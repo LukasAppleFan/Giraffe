@@ -2,7 +2,7 @@ def add_two_numbers(a, b):
     return a + b
 
 
-def multiply_two_numbers(a, b,):
+def multiply_two_numbers(a, b, ):
     return a * b
 
 
@@ -31,6 +31,7 @@ print(phrase.islower())
 # age = input("How old are you: ")
 # print("Hello " + name + " You are " + age)
 
+# Lists
 lucky_numbers = [149, 22, 482, 29, 247]
 random_list = ["master", "coal", "ceremony", "moon", "besides"]
 random_list.extend(lucky_numbers)
@@ -39,3 +40,31 @@ print(type(random_list[2]))
 
 # for i in range(len(random_list)):
 #     print(type(random_list[i]))
+
+
+# Tuple
+coordinates = [(4, 5), (6, 7), (80, 34)]
+print(coordinates[0])
+
+
+# Functions and return statement
+def say_hi(name, age):
+    print("Hello " + name + " you are: " + str(age))
+
+
+say_hi("Lukas", 17)
+
+
+# words = ["loaf", "excuse", "staff", "moreover", "buy"]
+#
+# for elem in words:
+#     say_hi(elem)
+
+def cube(num):
+    return num ** 3
+
+
+result = cube(4)
+print(result)
+
+# If statements
