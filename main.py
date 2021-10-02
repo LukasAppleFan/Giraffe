@@ -39,3 +39,4 @@ print(type(random_list[2]))
 
 # for i in range(len(random_list)):
 #     print(type(random_list[i]))
+z
