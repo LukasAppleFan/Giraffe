@@ -68,3 +68,25 @@ result = cube(4)
 print(result)
 
 # If statements
+is_male_if = True
+is_tall = True
+
+if is_male_if:
+    print("You are a male")
+else:
+    print("You are not a male")
+
+
+# If statements and comparisons
+def max_num(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+
+assert max_num(4, 6, 3) == 6
+assert max_num(199, 491, 592) == 592
+assert max_num(0, 0, 0) == 0
